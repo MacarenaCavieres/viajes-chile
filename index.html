@@ -46,7 +46,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="#carouselExample">Inicio</a>
                         <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
                         <a class="nav-link" href="#destacados">Destacados</a>
                         <a class="nav-link" href="#contacto">Contacto</a>
@@ -56,7 +56,7 @@
         </nav>
 
         <header>
-            <div id="inicio" class="carousel slide d-none d-md-block">
+            <div id="carouselExample" class="carousel slide d-none d-md-block">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img
@@ -93,15 +93,15 @@
             </div>
         </header>
 
-        <section class="container my-5 py-5" id="quienesSomos">
-            <h2 class="text-center">¿QUIÉNES SOMOS?</h2>
+        <section class="container" id="quienesSomos">
+            <h2 class="text-center pb-3">¿QUIÉNES SOMOS?</h2>
             <hr />
             <div class="row">
-                <article class="col-12 col-md-4">
+                <article class="col-12 col-md-4 py-4">
                     <div class="bg-info text-center">
                         <i class="fa-solid fa-plane fa-2x"></i>
                     </div>
-                    <p>
+                    <p class="pt-2">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur aut vel ea,
                         voluptas quisquam ad dicta debitis magni, ex sequi officiis dolore corporis modi
                         beatae facilis in eius exercitationem atque! Lorem, ipsum dolor sit amet consectetur
@@ -111,8 +111,8 @@
                         ipsa molestiae omnis reprehenderit voluptate
                     </p>
                 </article>
-                <article class="col-12 col-md-4">
-                    <p>
+                <article class="col-12 col-md-4 py-4">
+                    <p class="pt-2">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur aut vel ea,
                         voluptas quisquam ad dicta debitis magni, ex sequi officiis dolore corporis modi
                         beatae facilis in eius exercitationem atque! Lorem, ipsum dolor sit amet consectetur
@@ -125,11 +125,11 @@
                         <i class="fa-solid fa-mountain fa-2x"></i>
                     </div>
                 </article>
-                <article class="col-12 col-md-4">
+                <article class="col-12 col-md-4 py-4">
                     <div class="bg-info text-center">
                         <i class="fa-solid fa-route fa-2x"></i>
                     </div>
-                    <p>
+                    <p class="pt-2">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur aut vel ea,
                         voluptas quisquam ad dicta debitis magni, ex sequi officiis dolore corporis modi
                         beatae facilis in eius exercitationem atque! Lorem, ipsum dolor sit amet consectetur
@@ -143,10 +143,11 @@
         </section>
 
         <section class="container" id="destacados">
-            <h2>DESTACADOS</h2>
+            <h2 class="text-center pb-3">DESTACADOS</h2>
+            <hr />
             <div class="row">
-                <article class="col-12 col-md-3">
-                    <div class="card">
+                <article class="col-12 col-md-6 col-lg-3 pt-4">
+                    <div class="card text-bg-info text-white">
                         <img
                             src="assets/img/card1.jpg"
                             class="card-img-top"
@@ -162,8 +163,8 @@
                         </div>
                     </div>
                 </article>
-                <article class="col-12 col-md-3">
-                    <div class="card">
+                <article class="col-12 col-md-6 col-lg-3 pt-4">
+                    <div class="card text-bg-info text-white">
                         <img
                             src="assets/img/card2.jpg"
                             class="card-img-top"
@@ -179,8 +180,8 @@
                         </div>
                     </div>
                 </article>
-                <article class="col-12 col-md-3">
-                    <div class="card">
+                <article class="col-12 col-md-6 col-lg-3 pt-4">
+                    <div class="card text-bg-info text-white">
                         <img
                             src="assets/img/card3.jpg"
                             class="card-img-top"
@@ -196,8 +197,8 @@
                         </div>
                     </div>
                 </article>
-                <article class="col-12 col-md-3">
-                    <div class="card">
+                <article class="col-12 col-md-6 col-lg-3 pt-4">
+                    <div class="card text-bg-info text-white">
                         <img src="assets/img/card4.jpg" class="card-img-top" alt="bosque" height="175" />
                         <div class="card-body">
                             <h5>Lorem ipsum dolor sit amet.</h5>
@@ -212,7 +213,7 @@
         </section>
 
         <form class="container" id="contacto">
-            <h2>CONTACTO</h2>
+            <h2 class="text-center pb-3">CONTACTO</h2>
             <div class="row">
                 <div class="col-12">
                     <div class="mb-3">
@@ -232,13 +233,13 @@
             </div>
         </form>
 
-        <footer class="d-flex">
-            <p>VIAJES CHILE</p>
-            <div class="ms-auto iconos-footer">
-                <i class="fa-brands fa-square-github"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-square-twitter"></i>
-                <i class="fa-brands fa-square-facebook"></i>
+        <footer class="bg-info py-3 container-fluid d-flex">
+            <p class="viajes-chile w-50 ms-auto">VIAJES CHILE</p>
+            <div class="iconos-footer me-auto">
+                <i class="fa-brands fa-square-github fa-2x px-2"></i>
+                <i class="fa-brands fa-linkedin fa-2x px-2"></i>
+                <i class="fa-brands fa-square-twitter fa-2x px-2"></i>
+                <i class="fa-brands fa-square-facebook fa-2x px-2"></i>
             </div>
         </footer>
 
